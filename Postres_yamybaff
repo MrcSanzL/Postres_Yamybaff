@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenidos a:</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #E6E6FA;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #b66b7c;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f4a261;
+      color: white;
+    }
+
+    img.postre {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    #flyer {
+      padding: 20px;
+    }
+
+    #flyer h2 {
+      text-align: center;
+      color: #b66b7c;
+    }
+
+    #flyer iframe {
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado con logo -->
+  <header>
+    <img src="C:\Users\mirlu\OneDrive\Documents\HTML\logo.unadeliciaacadabocado.jpeg">
+    <h1>Bienvenidos a: </h1>
+  </header>
+
+  <!-- Subtítulo -->
+  <div class="container">
+    <h2>"Una delicia en cada bocado"</h2>
+    <p>"Recuerda que aquí descubrirás el placer de lo dulce en cada bocado"</p>
+  </div>
+
+  <!-- Video Promocional -->
+  <section id="flyer">
+    <h2>Video Promocional</h2>
+    <iframe 
+      width="200" 
+      height="355" 
+      src="https://www.youtube.com/embed/d5ot-vt0mBQ?autoplay=1&mute=1&loop=1&playlist=d5ot-vt0mBQ" 
+      title="Yamibaf Flyer" 
+      frameborder="0" 
+      allow="autoplay; encrypted-media" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Tabla de productos -->
+  <table>
+    <thead>
+      <tr>
+        <th>Postre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Coctel de Frutas</td>
+        <td>Una refrescante mezcla de frutas frescas de temporada, ideal para cualquier momento del día.</td>
+        <td>$50.00 MXN</td>
+        <td><img class="postre" src="https://th.bing.com/th?q=Coctel+De+Frutas+En+Vaso&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=es-MX&cc=MX&setlang=es&adlt=moderate&t=1&mw=247"></td>
+      </tr>
+      <tr>
+        <td>Doriesquites</td>
+        <td>Una deliciosa combinación de esquites servidos sobre una base crujiente de Doritos, cubiertos con queso y salsa.</td>
+        <td>$35.00 MXN</td>
+        <td><img class="postre" src="https://www.cocinavital.mx/wp-content/uploads/2018/03/doriesquites.jpg" alt="Doriesquites"></td>
+      </tr>
+      <tr>
+        <td>Waffles</td>
+        <td>Waffles dorados y crujientes por fuera, suaves por dentro, servidos con miel de maple y frutas frescas.</td>
+        <td>$60.00 MXN</td>
+        <td><img class="postre" src="https://th.bing.com/th/id/OIP.lbm71g-gTgKIV-ODgc0DCgHaKi?w=184&h=262&c=7&r=0&o=5&pid=1.7"></td>
+      </tr>
+      <tr>
+        <td>Aguas Frescas</td>
+        <td>Bebidas tradicionales mexicanas elaboradas con frutas naturales, agua y un toque de azúcar. Sabores disponibles: Jamaica, Tamarindo y Horchata.</td>
+        <td>$25.00 MXN</td>
+        <td><img class="postre" src="https://thafd.bing.com/th/id/OIP.Z3lO4TUJzGxi-9SfEXJBhQHaEK?rs=1&pid=ImgDetMain"></td>
+      </tr>
+    </tbody>
+  </table>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro en Red Social</title>
+</head>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realiza tu pedido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="text"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+Realiza tu pedido
+  
+<a
+  href="file:///C:/Users/Personal/Desktop/formularioooo.html">clic aquí</a>
+
+
+Deja tus comentarios
+
+<a
+href="file:///C:/Users/Personal/Desktop/comentariosss.html">click aquí</a>
+
+Mapa De Ubicacion
+
+<a
+href="file:///C:/Users/Personal/Desktop/mapa.html">click aqui</a>
+
+  <!-- Integrantes -->
+  <div style="padding: 20px;">
+    <h2>Integrantes:</h2>
+    <ul>
+      <li>Magdalena Lopez Carpio</li>
+      <li>Miriam Lizeth De Jesus Lucio</li>
+      <li>Leysi Quintana Huitron</li>
+      <li>Guadalupe Itzel Zuñiga Julian</li>
+      <li>Carlos Daniel Huerta Santos</li>
+      <li>Jose Javier Lira Garduño</li>
+    </ul>
+  </div>
+  <h1>Datos de contacto</h1>
+  <ul>
+    <li>557-443-9735
+      <li>554-395-1014
+
+</body>
+</html>
